@@ -7,3 +7,16 @@ Console.WriteLine("Monto base\r\nMétodo de pago\r\n1 Efectivo\r\n2 Tarjeta\r\n3
 int pago = int.Parse(Console.ReadLine());
 Console.WriteLine("Tiene cupongo?");
 string cupo = Console.ReadLine();
+switch (cliente)
+{
+    case 1://Estudiante
+        break;
+    case 2://docente
+        break;
+    case 3://administrativo
+        break;
+    case 4: //extreno
+        break;
+    default://error
+        break;
+}
