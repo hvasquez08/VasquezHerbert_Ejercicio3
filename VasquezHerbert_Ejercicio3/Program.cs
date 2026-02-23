@@ -101,5 +101,5 @@ Console.WriteLine($"Monto final={monto-descueto-descuentocupon+recargo}");
 }
 else
 {
-    Console.WriteLine("datos erroneos");
+    Console.WriteLine("DATOS ERRONEOS INGRESADOS");
 }
