@@ -10,6 +10,20 @@ string cupo = Console.ReadLine();
 switch (cliente)
 {
     case 1://Estudiante
+        switch (pago)
+        {
+            case 1: //efectivo
+                break;
+            case 2://tarjeta
+                break;
+            case 3://transferencia
+                break;
+            default://Error
+                break;
+
+        }
+
+
         break;
     case 2://docente
         break;
